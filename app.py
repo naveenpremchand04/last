@@ -40,7 +40,7 @@ def main():
 	if rows:
 		for row in rows:
 			if row[0]==orgurl:
-				return ('<body style = "background-color:lightblue;"><h1><i><b>Shortend Url:http://127.0.0.1:5000/%s</i></b></h1>'%(row[1]))
+				return ('<body style = "background-color:lightblue;"><h1><i><b>Shortend Url:http://warm-springs-1237.herokuapp.com/%s</i></b></h1>'%(row[1]))
 
 
 
@@ -61,7 +61,7 @@ def main():
     		cur.execute("INSERT INTO url VALUES(?, ?)", data)
 		con.commit()
 		con.close()
-		return ('<body style = "background-color:lightblue;"><h1><i><b>Shortend Url:http://127.0.0.1:5000/%s</i></b></h1>'%(nwurl))
+		return ('<body style = "background-color:lightblue;"><h1><i><b>Shortend Url:http://warm-springs-1237.herokuapp.com/%s</i></b></h1>'%(nwurl))
 
 
 
